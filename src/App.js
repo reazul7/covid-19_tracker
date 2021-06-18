@@ -28,34 +28,3 @@ class App extends React.Component {
 };
 
 export default App;
-
-// import React from 'react';
-// import './App.css';
-// import { Cards, Chart, CountryPicker } from './components';
-// import {fetchData} from './api/index';
-
-
-// class App extends React.Component {
-//   state = {
-//     data: {},
-//     country: '',
-//   }
-
-//   async componentDidMount() {
-//     const fetchedData = await fetchData();
-//     this.setState({data: fetchedData});
-//   }
-
-//   render() {
-//     const { data } = this.state;
-//     return (
-//       <div className="container">
-//          <Cards data={data}/>
-//          <Chart/>
-//          <CountryPicker/>
-//       </div>
-//     );
-//   }
-// }
-
-// export default App;
