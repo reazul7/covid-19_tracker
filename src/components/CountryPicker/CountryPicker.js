@@ -1,9 +1,10 @@
 import React from 'react';
+import './CountryPicker.css';
 
 const CountryPicker = () => {
     return (
-        <div>
-            <h1>Country Picker</h1>
+        <div className="container pt-5">
+            <h1>CountryPicker</h1>
         </div>
     );
 };
