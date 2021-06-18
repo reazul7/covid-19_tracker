@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { fetchCountries } from '../../api';
 
-const CountryPicker = () => {
+const CountryPicker = ({handleCountryChange}) => {
     const [fetchedCountries, setFetchedCountries] = useState([]);
     useEffect(() => {
         const fetchAPI = async () => {
@@ -18,7 +18,7 @@ const CountryPicker = () => {
     return (
         <div className="container pt-5">
             <FormControl>
-                <NativeSelect>
+                <NativeSelect defaultValue="" onChange={(e) => handleCountryChange(e.target.value)}>
                     <option value="global">Global</option>
                     {
                         fetchedCountries.map((country, i) => <option value={country} key={i}>{country}</option>)
