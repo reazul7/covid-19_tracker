@@ -1,5 +1,4 @@
 import React from 'react';
-import './Chart.css';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { fetchDailyData } from '../../api';
@@ -37,9 +36,7 @@ const Chart = ({ data: { confirmed, recovered, deaths}, country }) => {
         ) : null
     );
 
-    
     // console.log(confirmed, recovered, deaths);
-
 
     const barChart = (
         confirmed
