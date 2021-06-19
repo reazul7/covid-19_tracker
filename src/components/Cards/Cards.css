@@ -1,5 +1,5 @@
 .card{
-    margin: 0 2%;
+    margin: 0 2% !important;
 }
 .infected{
     border-bottom: 10px solid mediumslateblue;
@@ -10,3 +10,15 @@
 .deaths{
     border-bottom: 10px solid indianred;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 50px 0; */
+}
+
+@media only screen and (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+    }
+  }
