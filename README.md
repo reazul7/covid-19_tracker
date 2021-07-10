@@ -1,6 +1,7 @@
 <h2 align="center">
   Covid 19 Tracker<br/>
   <a href="https://covid-tracker-77.netlify.app/" target="_blank">Live Site</a>
+  <a href="https://covid-19-tracker-c41ee.web.app/" target="_blank">Live Site</a>
 </h2>
 <div align="center">
   <img src="https://raw.githubusercontent.com/reazul7/covid-19_tracker/master/src/images/responsive-img.png" alt="Demo"/>
